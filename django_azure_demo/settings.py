@@ -25,7 +25,7 @@ SECRET_KEY = '%1dr$izr1npn#@)^94(b-zpb4wy6+#y@(s)cgo8yh3zt87%(9)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('DJANGO_HOST', 'localhost')]
+ALLOWED_HOSTS = ['https://django-test2-arcaise.azurewebsites.net', 'localhost']
 
 
 # Application definition
